@@ -3,7 +3,7 @@ Este pequeño proyecto convierte los emojis shortcodes a codificación del emoji
 
 # Uso muy simple
 <pre>include('emoji_helper.php');
-$texto_a_reemplazar = ReplaceEmoji($emoji, $texto_a_reemplazar);
+$texto_a_reemplazar = ReplaceEmoji($texto_a_reemplazar);
 
 Esto buscará cadenas como shortcodes y la convertirá en UTF8 emoji
 
@@ -14,7 +14,7 @@ Por ejemplo: :airplane_departure: será convertido a 🛫
 <pre>
 include('emoji_helper.php');
 $texto = ":airplane_departure: es el shortcode de un avión";
-$texto2 = ReplaceEmoji($emoji, $texto);
+$texto2 = ReplaceEmoji($texto);
 </pre>
 
 Visualización de variables

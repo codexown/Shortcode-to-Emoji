@@ -1,6 +1,5 @@
 <?php
 /* Check https://emojipedia.org/ for emojis */
-	
 
 function ReplaceEmoji($text) {
 	$emojis = array(

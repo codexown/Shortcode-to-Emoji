@@ -11,11 +11,11 @@ Por ejemplo: :airplane_departure: será convertido a 🛫
 </pre>
 
 # Ejemplo
-
+<pre>
 include('emoji_helper.php');
 $texto = ":airplane_departure: es el shortcode de un avión";
 $texto2 = ReplaceEmoji($texto);
-
+</pre>
 
 Visualización de variables
 <pre>echo $texto;</pre>

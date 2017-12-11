@@ -1,17 +1,19 @@
 <?php
-	$emojis = array(
-	':airplane_departure:' => '🛫',
-	':runner:' => '🏃',
-	':warning:' => '⚠️',
-	':airplane:' => '✈️',
-	':calendar:' => '📅',
-	':dollar:' => '💵',
-	':information_source:' => 'ℹ️',
-	':heart_eyes:' => '😍',
-	':white_check_mark:' => '✅'
-);
+/* Check https://emojipedia.org/ for emojis */
+	
 
-function ReplaceEmoji(array $replace, $subject) {
-	return str_replace(array_keys($replace), array_values($replace), $subject);   
+function ReplaceEmoji($text) {
+	$emojis = array(
+	':airplane_departure:' => 'ðŸ›«',
+	':runner:' => 'ðŸƒ',
+	':warning:' => 'âš ï¸',
+	':airplane:' => 'âœˆï¸',
+	':calendar:' => 'ðŸ“…',
+	':dollar:' => 'ðŸ’µ',
+	':information_source:' => 'â„¹ï¸',
+	':heart_eyes:' => 'ðŸ˜',
+	':white_check_mark:' => 'âœ…'
+	);
+	return str_replace(array_keys($emojis), array_values($emojis), $text);   
 }
 ?>
